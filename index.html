@@ -76,7 +76,7 @@
         }
 
         .picture > img {
-            max-width: 80%;
+            max-width: 100%;
         }
 
         .picture-text {
@@ -98,7 +98,10 @@
 
     <div class="audio-container">
         <small style="display: block; margin-bottom: 1em;"><strong>Listen to the audio book!</strong></small>
-        <audio src="audiobook.ogg" controls style="width: 100%">
+        <audio controls style="width: 100%">
+            <source src="audiobook.ogg" type="audio/ogg"/>
+            <source src="audiobook.m4a" type="audio/x-m4a"/>
+        </audio>
     </div>
 
     <p>Not much is known about Alex and Horachio the Kazoo. It feels like they've lived in Blakeopolis forever. They're a duo that everyone in town knows. I mean, who wouldn't know a boy dressed head to toe in bright rainbow colours with a talking kazoo? </p>
